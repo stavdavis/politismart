@@ -1,0 +1,14 @@
+.signup-page {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 50px;	
+	padding-bottom: 100px;
+}
+
+@media screen and (max-width: 480px) {
+	.signup-page {
+		width: 95%;
+		padding-top: 20px;
+	}
+}

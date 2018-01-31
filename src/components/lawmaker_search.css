@@ -1,0 +1,40 @@
+.upper-arrows-container {
+	margin-right: auto;
+	margin-left: auto;
+	width: 80%;
+	margin-top: 20px;
+	margin-bottom: 0;
+	text-align: right;
+	font-size: 10.5px;
+	color: #757575;
+}
+
+@media screen and (min-width: 480px) {
+    .upper-arrows-container {
+        width: 50%;
+    }
+}
+
+.lawmaker-search {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.lawmaker-count {
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.result-sort-message {
+	font-size: 12px;
+	font-style: italic;
+}
+
+@media screen and (max-width: 480px) {
+	.lawmaker-search-results {
+		width: 357px; /* 3x (113+2+2+1+1) - for 3 centered cards on mobile screens */
+		margin-left: auto;
+		margin-right: auto;
+	}
+}

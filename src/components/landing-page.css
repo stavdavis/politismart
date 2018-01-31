@@ -1,0 +1,25 @@
+.register-link {
+	margin-left: 25px;
+	color: #2c3e50;
+	font-family: Righteous;
+	font-size: 15px;
+}
+
+.register-link:hover {
+	text-decoration: none;
+	color: #2c3e50;
+}
+
+.lawmaker-search-section {
+	padding-top: 30px;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 1000px; /*this is so the page deosn't jump when reloading cards*/
+}
+
+@media screen and (max-width: 480px) {
+	.lawmaker-search-section {
+		width: 95%;
+	}
+}

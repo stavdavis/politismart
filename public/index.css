@@ -1,0 +1,11 @@
+body {
+	background: url('congress-bg-image-main-low-res-transparent.JPG') no-repeat center center fixed;
+	background-size: cover;
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        background: url('mobile-background-low-res.jpg') no-repeat top center fixed;
+        background-size: 480px 850px;
+    }
+}
