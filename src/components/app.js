@@ -48,11 +48,11 @@ export class App extends React.Component {
                 <MainNavBar />
                 <LogoutBar />
                 <Route path="/" component={LandingPage} />
-                <Route path="/dashboard" component={Dashboard} />
-                <Route path="/register" component={RegistrationPage} />
-                <Route path="/about" component={AboutPage} />
-                <Route path="/stats" component={StatsPage} />
-                <Route path="/no-login" component={NoLoginMsgPage} />
+                <Route exact path="/dashboard" component={Dashboard} />
+                <Route exact path="/register" component={RegistrationPage} />
+                <Route exact path="/about" component={AboutPage} />
+                <Route exact path="/stats" component={StatsPage} />
+                <Route exact path="/no-login" component={NoLoginMsgPage} />
             </div>
         );
     }
