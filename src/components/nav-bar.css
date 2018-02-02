@@ -47,9 +47,10 @@ nav.navbar-app {
   }
 }
 
-.navbar-app-link,
-.navbar-app-link:hover,
-.navbar-app-link:visited {
+a.navbar-app-link,
+a.navbar-app-link:hover,
+a.navbar-app-link:visited,
+a.navbar-app-link:active {
   color: #AAA;
   text-decoration: none;
 }
