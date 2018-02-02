@@ -6,6 +6,7 @@ import App from './components/app';
 import store from './store';
 import './index.css';
 
+//DON'T FORGET to put a _redirects file in the public folder, for the router to work on Netlify etc
 ReactDOM.render(
     <Provider store={store}>
         <Router>

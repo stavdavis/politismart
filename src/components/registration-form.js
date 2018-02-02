@@ -25,33 +25,41 @@ export class RegistrationForm extends React.Component {
                 onSubmit={this.props.handleSubmit(values =>
                     this.onSubmit(values)
                 )}>
-                <label htmlFor="firstName">First name</label>
-                <Field component={Input} type="text" name="firstName" className="signup-field signup-first-name" />
-                <label htmlFor="lastName">Last name</label>
-                <Field component={Input} type="text" name="lastName" className="signup-field signup-last-name" />
-                <label htmlFor="username">Username</label>
+                <Field component={Input} 
+                    type="text" 
+                    name="firstName" 
+                    className="signup-field signup-first-name" 
+                    placeholder="First name"
+                />
+                <Field component={Input} 
+                    type="text" 
+                    name="lastName" 
+                    className="signup-field signup-last-name" 
+                    placeholder="Last name"
+                />
                 <Field
                     component={Input}
                     type="text"
                     name="username"
                     validate={[required, nonEmpty, isTrimmed]}
                     className="signup-field signup-username"
+                    placeholder="Username"
                 />
-                <label htmlFor="password">Password</label>
                 <Field
                     component={Input}
                     type="password"
                     name="password"
                     validate={[required, passwordLength, isTrimmed]}
                     className="signup-field signup-password"
+                    placeholder="Password"
                 />
-                <label htmlFor="passwordConfirm">Confirm password</label>
                 <Field
                     component={Input}
                     type="password"
                     name="passwordConfirm"
                     validate={[required, nonEmpty, matchesPassword]}
                     className="signup-field signup-password-confirm"
+                    placeholder="Confirm password"
                 />
                 <button
                     type="submit"

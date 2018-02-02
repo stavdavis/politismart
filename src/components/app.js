@@ -41,7 +41,7 @@ export class App extends React.Component {
 
         clearInterval(this.refreshInterval);
     }
-
+    //DON'T FORGET to put a _redirects file in the public folder
     render() {
         return (
             <div className="app">
