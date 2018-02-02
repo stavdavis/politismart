@@ -47,6 +47,13 @@ nav.navbar-app {
   }
 }
 
+.navbar-app-link,
+.navbar-app-link:hover,
+.navbar-app-link:visited {
+  color: #AAA;
+  text-decoration: none;
+}
+
 .navbar-default {
   width: 100vw !important;
   margin: 0 !important;
