@@ -13,7 +13,9 @@ export function RegistrationPage(props) {
     return (
         <div className="signup-page">
             <h1>Sign up for PolitiSmart</h1>
-            <RegistrationForm />
+            <div className="reg-form">
+                <RegistrationForm />
+            </div>
         </div>
     );
 }
