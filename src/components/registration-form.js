@@ -25,16 +25,20 @@ export class RegistrationForm extends React.Component {
                 onSubmit={this.props.handleSubmit(values =>
                     this.onSubmit(values)
                 )}>
-                <Field component={Input} 
+                <Field 
+                    component={Input} 
                     type="text" 
                     name="firstName" 
                     className="signup-field signup-first-name" 
+                    validate={[required]}
                     placeholder="First name"
                 />
-                <Field component={Input} 
+                <Field 
+                    component={Input} 
                     type="text" 
                     name="lastName" 
                     className="signup-field signup-last-name" 
+                    validate={[required]}
                     placeholder="Last name"
                 />
                 <Field

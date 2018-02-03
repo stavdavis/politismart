@@ -1,3 +1,17 @@
 .no-login-msg-page {
 	padding-left: 15px;
 }
+
+.no-login-msg-page {
+	padding-top: 30px;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 1000px; /*this is so the page deosn't jump when reloading cards*/
+}
+
+@media screen and (max-width: 480px) {
+	.no-login-msg-page {
+		width: 95%;
+	}
+}

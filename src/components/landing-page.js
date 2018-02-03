@@ -13,10 +13,6 @@ export function LandingPage(props) {
 
     return (
         <div className="landing-page">
-            <div className="login-bar">
-                <LoginForm />
-                <Link className="register-link" to="/register">Register</Link>
-            </div>
             <div className="lawmaker-search-section">
                 <h1>Find your matching lawmakers:</h1>
                 <h2>Select your preferences to see matching U.S. senators</h2>

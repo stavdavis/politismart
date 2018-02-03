@@ -1,17 +1,4 @@
-.register-link {
-	margin-left: 25px;
-	color: #2c3e50;
-	font-family: Righteous;
-	font-size: 15px;
-}
-
-.register-link:hover {
-	text-decoration: none;
-	color: #2c3e50;
-}
-
 .lawmaker-search-section {
-	padding-top: 30px;
 	width: 70%;
 	margin-left: auto;
 	margin-right: auto;
