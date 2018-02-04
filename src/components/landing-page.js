@@ -1,8 +1,7 @@
 import React from 'react';
 import {connect} from 'react-redux';
-import {Link, Redirect} from 'react-router-dom';
+import {Redirect} from 'react-router-dom';
 import LawmakerSearch from './lawmaker_search';
-import LoginForm from './login-form';
 import './landing-page.css';
 
 export function LandingPage(props) {

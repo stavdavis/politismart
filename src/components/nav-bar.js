@@ -3,7 +3,7 @@
 //<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css">
 import React from 'react';
 import { Nav, Navbar, NavItem } from 'react-bootstrap';
-import {Link, Redirect} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import './nav-bar.css';
 
 export default class MainNavBar extends React.Component {

@@ -51,6 +51,7 @@ a.navbar-app-link,
 a.navbar-app-link:hover,
 a.navbar-app-link:visited,
 a.navbar-app-link:active {
+  display: block;
   color: #AAA;
   text-decoration: none;
 }
