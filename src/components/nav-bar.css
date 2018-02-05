@@ -1,5 +1,6 @@
 .navbar-app {
   z-index: 999;
+  background-image: none;
 }
 
 .navbar-homepage, .user-navbar {
@@ -72,7 +73,7 @@ a.navbar-app-link:active {
 
 .navbar-brand {
   font-family: Righteous;
-  color: #2c3e50 !important;
+  color: white !important;
   font-size: 40px !important;
   display: inline-block;
   padding: 15px 5px !important;

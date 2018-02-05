@@ -14,8 +14,8 @@ export function LandingPage(props) {
         <div className="landing-page">
             <div className="lawmaker-search-section">
                 <h1>Find your matching lawmakers:</h1>
-                <h2>Select your preferences to see matching U.S. senators</h2>
-                <h4>(Members of congress and other political incumbents coming soon)</h4>
+                <h2>Select your preferences to see matching lawmakers</h2>
+                <h4>(U.S. senators only; other political incumbents coming soon)</h4>
                 <LawmakerSearch />
             </div>
         </div>
