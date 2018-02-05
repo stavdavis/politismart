@@ -47,7 +47,7 @@ export class LawmakerSearch extends React.Component {
         return (
             <div className="lawmaker-search">
                 <div className="upper-arrows-container">
-                    &#9664; Oppose &#11835; Support &#9654;
+                    &#129152; Oppose &#11835; Support &#129154;
                 </div>
                 <PickSwitch 
                     title="Gun control" 
