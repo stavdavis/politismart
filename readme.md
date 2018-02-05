@@ -4,7 +4,9 @@
 
 ### About PolitiSmart
 
-PoltiSmart is an tool for individuals who want to make political contributions according to a set of causes they care about. For example, if you support LGBTQ rights and also are pro-life - it will help you find the lawmakers that fit that profile (there are 4 senators who match that profile, as of Jan 2018). It also sorts the matching lawmakers according to their re-election risk, so that you know where your contribution will make the most impact.
+Our two-party political system is broken, since it bundles too many issues into just two buckets. What if you're pro-choice but also anti gun-control? What if your pro-LGBTQ rights but also don't believe in clean energy? There actually are lawmakers that match those profiles. PolitiSmart helps you find them.
+
+PoltiSmart is an tool for individuals who want to make political contributions according to a set of causes they care about. It also sorts the matching lawmakers according to their re-election risk, so that you know where your contribution will make the most impact.
 
 The current version has five preference options: Gun control, pro-life/choice, LGBTQ rights, Clean energy and small government - each with "support", "oppose" or "neutral" options. The current version has 100 US senators in its database. 
 
