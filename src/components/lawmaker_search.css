@@ -9,6 +9,10 @@
 	color: #757575;
 }
 
+.oppose-support-img {
+	width: 130px;
+}
+
 @media screen and (min-width: 480px) {
     .upper-arrows-container {
         width: 50%;

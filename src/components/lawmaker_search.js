@@ -5,6 +5,7 @@ import {searchLawmakers, updateSearchObject} from '../actions/lawmaker_search_ac
 import PickSwitch from './pick_switch';
 import SenatorCard from './senator_card';
 import './lawmaker_search.css';
+import opposeSupportArrowsImg from './oppose-support-bar.png';
 
 export class LawmakerSearch extends React.Component {
 
@@ -47,7 +48,7 @@ export class LawmakerSearch extends React.Component {
         return (
             <div className="lawmaker-search">
                 <div className="upper-arrows-container">
-                    &#129152; Oppose &#11835; Support &#129154;
+                    <img className="oppose-support-img" src={opposeSupportArrowsImg} alt="oppose or support arrows" />
                 </div>
                 <PickSwitch 
                     title="Gun control" 
