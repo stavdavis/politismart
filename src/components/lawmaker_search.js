@@ -6,6 +6,8 @@ import PickSwitch from './pick_switch';
 import SenatorCard from './senator_card';
 import './lawmaker_search.css';
 import opposeSupportArrowsImg from './oppose-support-bar.png';
+import {Payment} from './payment';
+import {StripeProvider} from 'react-stripe-elements';
 
 export class LawmakerSearch extends React.Component {
 
@@ -90,6 +92,10 @@ export class LawmakerSearch extends React.Component {
                         }
                     } 
                 />
+
+                <StripeProvider apiKey="pk_test_6pRNASCoBOKtIshFeQd4XMUh">
+                    <Payment />
+                </StripeProvider>
 
                 <div className="lawmaker-search-results">
                     {this.renderResults()}
